@@ -4,7 +4,7 @@ class Question:
         self.options = options
         self.correct_option_id = correct_option_id
         
-    def check_answer(self, answer, ):
+    def check_answer(self, answer):
         if answer == self.correct_option_id:
             return True
         else:
